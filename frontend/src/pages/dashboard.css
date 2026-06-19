@@ -1,0 +1,120 @@
+.dashboard-bg{
+    min-height:100vh;
+
+    background-image:url("/farm.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+/* Glass Effect */
+
+.glass-box{
+    background:rgba(255,255,255,0.15);
+
+    backdrop-filter:blur(12px);
+    -webkit-backdrop-filter:blur(12px);
+
+    border:1px solid rgba(255,255,255,0.25);
+
+    border-radius:20px;
+}
+
+/* Sidebar */
+
+.sidebar{
+    min-height:95vh;
+    padding:20px;
+}
+
+.sidebar h3{
+    color:white;
+}
+
+.sidebar .nav-link{
+    color:white;
+    padding:12px;
+    margin-bottom:10px;
+    border-radius:10px;
+    font-size:17px;
+}
+
+.sidebar .nav-link:hover{
+    background:rgba(255,255,255,0.2);
+}
+
+/* Navbar */
+
+.navbar-custom{
+    padding:15px 25px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.navbar-custom h3{
+    color:white;
+    margin:0;
+}
+
+/* Welcome */
+
+.glass-box h1,
+.glass-box h4,
+.glass-box h5,
+.glass-box p{
+    color:white;
+}
+
+/* Cards */
+
+.stat-card{
+    padding:25px;
+    text-align:center;
+}
+
+.stat-card h1{
+    font-size:45px;
+    margin-top:10px;
+}
+
+/* Table */
+
+.table{
+    color:white;
+}
+
+.table th{
+    color:white;
+}
+
+.table td{
+    color:white;
+}
+
+/* Task List */
+
+.list-group-item{
+    background:rgba(255,255,255,0.1);
+    color:white;
+    border:none;
+    margin-bottom:8px;
+    border-radius:10px;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+    .sidebar{
+        min-height:auto;
+        margin-bottom:20px;
+    }
+
+    .navbar-custom{
+        flex-direction:column;
+        gap:15px;
+    }
+
+}

@@ -1,0 +1,77 @@
+/* weather.css */
+
+.weather-container {
+  padding: 30px;
+  text-align: center;
+}
+
+.weather-container h1 {
+  color: #2e7d32;
+  margin-bottom: 20px;
+}
+
+.search-box {
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  width: 250px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-box button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-box button:hover {
+  background-color: #1b5e20;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.weather-card {
+  width: 400px;
+  margin: 20px auto;
+  padding: 25px;
+  background: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.weather-card h2 {
+  margin-bottom: 10px;
+}
+
+.weather-card h3 {
+  font-size: 3rem;
+  color: #ff9800;
+  margin: 10px 0;
+}
+
+.weather-details p {
+  margin: 8px 0;
+}
+
+.crop-suggestion {
+  margin-top: 20px;
+  padding: 15px;
+  background: #e8f5e9;
+  border-radius: 8px;
+}
+
+.crop-suggestion h4 {
+  color: #2e7d32;
+  margin-bottom: 10px;
+}
