@@ -2,6 +2,7 @@ import { Link,useNavigate } from "react-router-dom";
 import "./login.css";
 import { useState } from "react";
 import axios from "axios";
+import Home from "./Home";
 export default function Login() {
  
   const[email,setEmail]=useState("");
@@ -45,6 +46,7 @@ export default function Login() {
       <div className="row">
     
        <div className="col-md-4 mt-5"><div className="box-shadow p-3 mt-4 blur-card">
+        <Link to="/Home" style={{textDecoration:"none" ,color:"black"}}>Back to Home</Link>
         <h1 style={{ color:"green",fontSize: "40px" }}>Welcome Back</h1>
 
         <p>Login to your account to continue</p>
