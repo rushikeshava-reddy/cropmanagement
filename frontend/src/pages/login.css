@@ -1,9 +1,4 @@
-.bm{
-            background-image: url("../assets/che.jpeg");
-}
-a{
-            text-decoration: none;
-}
+
 .blur-card {
     background: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(15px);
@@ -18,7 +13,7 @@ a{
 }
 
 .image{
-    background-image: url("C:/Users/imvis/OneDrive/Desktop/codenow academy/project/frontend/src/assets/crops2.png");
+    background-image: url("../assets/che.jpeg");
     width:1000px;
     height:800px;
 }
