@@ -1,5 +1,5 @@
 .bm{
-            background-image: url("C:/Users/imvis/OneDrive/Desktop/codenow academy/day12/frontend/src/assets/che.jpeg");
+            background-image: url("../assets/che.jpeg");
 }
 a{
             text-decoration: none;
@@ -22,3 +22,5 @@ a{
     width:1000px;
     height:800px;
 }
+
+
